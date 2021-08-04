@@ -36,6 +36,5 @@ window.addEventListener("message", receiveMessage);
 
 // функция для задания 5 передаваемая в domain.one для вызова
 const func = () => {
-    localStorage.clear()
-    console.log("Local Storage cleared!")
+    console.log("Call back function called")
 }
